@@ -3,7 +3,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>localhost</TargetServer>
+        <TargetServer>PORTABLESIMON</TargetServer>
         <TargetDatabase>CubeProjet</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>

@@ -8,17 +8,21 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Foodies997CubeV2.cube</Name>
-      <FullPath>Foodies997CubeV2.cube</FullPath>
+      <Name>Foodies997Cube.cube</Name>
+      <FullPath>Foodies997Cube.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Foodies997CubeV2.partitions</Name>
-          <FullPath>Foodies997CubeV2.partitions</FullPath>
+          <Name>Foodies997Cube.partitions</Name>
+          <FullPath>Foodies997Cube.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
   </Cubes>
   <Dimensions>
+    <ProjectItem>
+      <Name>Dim Customer.dim</Name>
+      <FullPath>Dim Customer.dim</FullPath>
+    </ProjectItem>
     <ProjectItem>
       <Name>Dim Shipment 1.dim</Name>
       <FullPath>Dim Shipment 1.dim</FullPath>
@@ -28,12 +32,12 @@
       <FullPath>Dim Sales Representative 1.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Customer.dim</Name>
-      <FullPath>Dim Customer.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Dim Product 1.dim</Name>
       <FullPath>Dim Product 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Date 1.dim</Name>
+      <FullPath>Dim Date 1.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Fact Sale.dim</Name>
@@ -48,8 +52,8 @@
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>Foodies997.dsv</Name>
-      <FullPath>Foodies997.dsv</FullPath>
+      <Name>Foodies997View.dsv</Name>
+      <FullPath>Foodies997View.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>

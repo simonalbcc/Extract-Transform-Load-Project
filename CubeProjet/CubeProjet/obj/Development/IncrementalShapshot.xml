@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>CubeProjet</Database>
+    <Server>PORTABLESIMON</Server>
+    <ConnectionString>Data Source=PORTABLESIMON;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>aZaHfAg3JdGiIzVOLg8ApWge5eI=13/01/2023 12:19:0404/01/2023 17:15:05</TimeStamp>
+        <ID>
+          <String>Foodies997</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>W12wA+gh8H6xbb6DTKbjAspDmKQ=13/01/2023 12:19:3213/01/2023 12:19:32</TimeStamp>
+        <ID>
+          <String>Foodies997View</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/MstVAfK3c8TyFHfiYgVA4XI+4Q=13/01/2023 12:19:5213/01/2023 12:19:52</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0FyK6EimB/+NY7kwhDI27UtROPc=13/01/2023 12:19:5313/01/2023 12:19:52</TimeStamp>
+        <ID>
+          <String>Dim Shipment</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>e730gXVx85VyUGbK9zkH38JjDYo=13/01/2023 12:19:5313/01/2023 12:19:52</TimeStamp>
+        <ID>
+          <String>Dim Sales Representative</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3P+Ki2f0XtN2I3b38qrFado70Pc=13/01/2023 12:19:5313/01/2023 12:19:52</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>isD402RFsPUgmphf2GROFP5tiDM=13/01/2023 12:19:5313/01/2023 12:19:52</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>vAOjEcnRb+4O0uMU/zfi81nHQtc=13/01/2023 12:19:5313/01/2023 12:19:52</TimeStamp>
+        <ID>
+          <String>Fact Sale</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>up/uw252Vi1SWju0jQa4ndj9wHM=13/01/2023 12:19:5313/01/2023 12:19:52CkwQL0DsqTtBDRtNRjA7Y/GsDT4=13/01/2023 12:19:5213/01/2023 12:19:52</TimeStamp>
+        <ID>
+          <String>Foodies997Cube</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>jTQrS2Ywnd9E8NpxxisykhOcPWY=05/01/2023 16:02:4404/01/2023 17:14:55</TimeStamp>
+      <ID>
+        <String>CubeProjet</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-01-13T11:20:10.796667Z</LastDeployed>
+</DeploymentSnapshot>

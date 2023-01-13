@@ -77,5 +77,7 @@ CREATE TABLE FactSale (
    constraint employee_fk foreign key (EmployeeID) references 	DimSalesRepresentative (EmployeeID),
    constraint shipper_fk  foreign key (ShipperID) references 	DimShipment (TechnicalID),
    constraint product_fk  foreign key (ProductID) references 	DimProduct (ProductID),
+   constraint shipped_date  foreign key (ShippedDate) references 	DimDate (DateKey),
+   constraint order_date    foreign key (OrderDate) references 	DimDate (DateKey),
 )
 GO

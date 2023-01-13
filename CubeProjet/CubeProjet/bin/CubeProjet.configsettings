@@ -5,12 +5,15 @@
         <ID>Foodies997</ID>
         <ConnectionString>Provider=MSOLEDBSQL.1;Data Source=localhost;Password=;User ID=;Initial Catalog=Foodies997</ConnectionString>
         <ImpersonationInfo>
-          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateAccount</ImpersonationMode>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateServiceAccount</ImpersonationMode>
           <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
         </ImpersonationInfo>
       </DataSource>
     </DataSources>
     <Dimensions>
+      <Dimension>
+        <ID>Dim Customer</ID>
+      </Dimension>
       <Dimension>
         <ID>Dim Shipment</ID>
       </Dimension>
@@ -18,10 +21,10 @@
         <ID>Dim Sales Representative</ID>
       </Dimension>
       <Dimension>
-        <ID>Dim Customer</ID>
+        <ID>Dim Product</ID>
       </Dimension>
       <Dimension>
-        <ID>Dim Product</ID>
+        <ID>Dim Date</ID>
       </Dimension>
       <Dimension>
         <ID>Fact Sale</ID>
@@ -29,29 +32,13 @@
     </Dimensions>
     <Cubes>
       <Cube>
-        <ID>Foodies997CubeV2</ID>
+        <ID>Foodies997Cube</ID>
         <MeasureGroups>
           <MeasureGroup>
             <ID>Fact Sale</ID>
             <Partitions>
               <Partition>
                 <ID>Fact Sale</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Dim Product</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dim Product</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Dim Customer</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dim Customer</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

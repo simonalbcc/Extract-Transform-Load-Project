@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="88"
-  DTS:VersionGUID="{E1FAB42C-E53C-4D9D-8F78-A8A3238EC70E}">
+  DTS:VersionBuild="92"
+  DTS:VersionGUID="{607713BD-06F2-4689-B5CA-144989340AEB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\simon\source\repos\Projet BI\ErrorCustomer.txt">
+          DTS:ConnectionString="C:\Users\simon\OneDrive\Documents\Cours\BI\projetETL\ETL-Foodies997\Projet BI\ErrorCustomer.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -38,7 +38,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CustomerIDGot"
-              DTS:DTSID="{395DCCA3-AAA6-450E-A843-19171119DD65}"
+              DTS:DTSID="{1F5118C3-25C8-4370-98F6-B627168DA603}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -47,7 +47,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CompanyNameGot"
-              DTS:DTSID="{E10E829B-058B-4003-9381-E72444B820EF}"
+              DTS:DTSID="{B936A258-786A-4EF8-8734-31615EED0FE7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -56,7 +56,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Country"
-              DTS:DTSID="{7B8BE086-0882-4E0D-9A9B-3A2AA2624FB1}"
+              DTS:DTSID="{E88DAE38-4E63-457C-AD2B-56C4B0C5F266}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -65,7 +65,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="City"
-              DTS:DTSID="{56C74C31-57C0-4BCA-B5C3-47D46D05E16C}"
+              DTS:DTSID="{90A5ED4E-C36D-4C25-B407-06EAA9CE2765}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -74,7 +74,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CustomerID"
-              DTS:DTSID="{E8C288B8-9443-438B-A5C1-3F4A7D146F5F}"
+              DTS:DTSID="{851D1134-B75D-49E1-9254-B6ADF19E9186}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -83,7 +83,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CompanyName"
-              DTS:DTSID="{C5BF8C37-5B0F-4472-B9A0-647E0A8868EB}"
+              DTS:DTSID="{DB96F441-CB6C-47B9-A119-8887DD0149BD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -92,7 +92,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CountryFrench"
-              DTS:DTSID="{640C6175-C0B3-4F03-B058-81FDB612526F}"
+              DTS:DTSID="{1AB7D191-5DF8-4AD1-8889-5EF10BFCDD08}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -101,7 +101,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CountryEnglish"
-              DTS:DTSID="{D9AC0389-69BE-4E9D-BF42-AC97D32BEEE0}"
+              DTS:DTSID="{FD68469B-2B28-411F-9EED-AD295E0C9F0D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -110,7 +110,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CityFrench"
-              DTS:DTSID="{84E7DD99-A24E-4323-BD8E-0EB109064D62}"
+              DTS:DTSID="{B2D6235D-7BA3-449C-A8D7-819C5E7CE3B1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -119,7 +119,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CityEnglish"
-              DTS:DTSID="{D64B3EBA-50F3-41DD-822F-0CAEC5CCC512}"
+              DTS:DTSID="{A9F5CA0E-8589-4F5D-B969-84CCCC0E673C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -127,7 +127,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{97A21895-D1C9-4934-91B1-25F6B90FF134}"
+              DTS:DTSID="{B55FA8B5-647B-44B3-84E2-2D9B89982AF9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -135,7 +135,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{1811897D-70D1-462E-A0C0-A127EA4EA29C}"
+              DTS:DTSID="{3DA11B00-AB37-4C7E-8ADC-D629B488C224}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -154,7 +154,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\simon\source\repos\Projet BI\ErrorDate.txt">
+          DTS:ConnectionString="C:\Users\simon\OneDrive\Documents\Cours\BI\projetETL\ETL-Foodies997\Projet BI\ErrorDate.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -162,7 +162,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="DateEntree"
-              DTS:DTSID="{8E8938CB-A725-40DA-86E3-60FE803F9945}"
+              DTS:DTSID="{A84C90A7-8EE6-44CB-9F61-4E9E2C65EB6A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -170,7 +170,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="DayOfYearNumber"
-              DTS:DTSID="{457D3EEE-5A93-483A-93AF-DDCC57CBD0FB}"
+              DTS:DTSID="{DC8CD85B-3564-4E32-AED6-267A0FE88086}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -178,7 +178,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="DayOFWeekNumber"
-              DTS:DTSID="{5FB9161D-C9E5-403C-BD4C-36A69D94B9EE}"
+              DTS:DTSID="{D924A866-1837-477F-A5DD-56F4C9C254E5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -187,7 +187,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="DayEnglishName"
-              DTS:DTSID="{A74A1FB5-A647-41E0-BAC8-A9F46DC22CAE}"
+              DTS:DTSID="{54556401-5C88-4720-9346-F271F4B2EA04}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -196,7 +196,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="DayFrenchName"
-              DTS:DTSID="{18218FBA-017E-4FDC-875E-53EDCA660579}"
+              DTS:DTSID="{A56DF08B-A38E-4010-BC39-5881C799E5F5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -205,7 +205,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="MonthFrenchName"
-              DTS:DTSID="{09DB47AA-FAB3-4271-8AE0-92A4E7FE78C2}"
+              DTS:DTSID="{029CB340-D8F6-49D9-A15B-A934B7D78D7F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -214,7 +214,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="MonthEnglishName"
-              DTS:DTSID="{5E992238-B064-48B9-B75D-FEE4318BE41A}"
+              DTS:DTSID="{EAF37497-4B47-4EBA-880A-2C3BC5F4BE6F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -222,7 +222,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="WeekNumber"
-              DTS:DTSID="{345D4565-0ED1-4B43-80C3-432A46B52F4E}"
+              DTS:DTSID="{79BF8ACF-DEC4-48E1-8FD3-F8CD5A08DED5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -230,7 +230,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{9C0F7B21-8362-48AE-A5E0-CB39C17376BF}"
+              DTS:DTSID="{D7F61269-AB18-4AB6-A5E8-56AE34023C55}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -238,201 +238,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{70B88ED1-57AF-402B-97C4-8B9040C922BC}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Debbuging]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{8BD39BF4-FCE7-43BB-AF08-BB006951F208}"
-      DTS:ObjectName="Debbuging">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="2057"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\simon\source\repos\Projet BI\Debugging.txt">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="OrderID"
-              DTS:DTSID="{BBE00783-49A7-4BFD-AD6F-49B7509C6EDC}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="5"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="CustomerID"
-              DTS:DTSID="{4DD717E2-063A-42F0-B7F7-5EF21CCE8483}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="EmployeeID"
-              DTS:DTSID="{EF1035E8-F4C4-4AC5-B716-B7C054B7DF91}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="135"
-              DTS:TextQualified="True"
-              DTS:ObjectName="OrderDate"
-              DTS:DTSID="{20267E04-25F2-48FC-8609-35502526E727}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="135"
-              DTS:TextQualified="True"
-              DTS:ObjectName="RequiredDate"
-              DTS:DTSID="{37B4CBC3-FFF0-4883-853F-8523EE1D77CC}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="135"
-              DTS:TextQualified="True"
-              DTS:ObjectName="ShippedDate"
-              DTS:DTSID="{A72DD839-8E10-444E-9567-C40515F441B4}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="ShipVia"
-              DTS:DTSID="{950A367F-BA76-4796-9C57-48C05D721A70}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="6"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Freight"
-              DTS:DTSID="{CDEC2F8D-2E9F-48D1-A2A4-DDA59D614DDA}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="40"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="ShipName"
-              DTS:DTSID="{4F401C5E-EE4D-4360-8FE0-482B011BE671}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="60"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="ShipAddress"
-              DTS:DTSID="{4D88632C-C214-4E15-9602-4F3384968263}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="15"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="ShipCity"
-              DTS:DTSID="{86807889-E680-444D-8C75-736E1CF645A0}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="15"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="ShipRegion"
-              DTS:DTSID="{3EEDEF7B-B1B5-4616-B971-A5EF99FDBDE8}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="10"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="ShipPostalCode"
-              DTS:DTSID="{708D2C82-E173-4D20-9602-BAF45A8E7F05}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="15"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="ShipCountry"
-              DTS:DTSID="{44DC29BA-C4BF-4CC4-B83C-3D2584B5BB9F}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="11"
-              DTS:TextQualified="True"
-              DTS:ObjectName="IsOnline"
-              DTS:DTSID="{BFC889A4-A0FC-426F-8B65-F01D24AE9679}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="ProductID"
-              DTS:DTSID="{DA971666-A13F-42DC-9A01-EC2F362E7B30}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="6"
-              DTS:TextQualified="True"
-              DTS:ObjectName="UnitPrice"
-              DTS:DTSID="{96C81FD2-532C-4293-B61E-2A16CE959C54}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="2"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Quantity"
-              DTS:DTSID="{E7A1518B-58EE-4976-9A8F-01A9757108A7}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="4"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Discount"
-              DTS:DTSID="{204F3519-4E4E-46C4-8599-1F03F8B2AAAF}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{6EEA6977-EB4D-483C-B156-004197321B64}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:DataType="3"
-              DTS:TextQualified="True"
-              DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{F3E4EF09-9092-44A6-9216-D4E0797D03C1}"
+              DTS:DTSID="{340F350D-0C9B-4459-B13F-34536207E0B1}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -451,7 +257,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\simon\source\repos\Projet BI\ErrorFactSale.txt">
+          DTS:ConnectionString="C:\Users\simon\OneDrive\Documents\Cours\BI\projetETL\ETL-Foodies997\Projet BI\ErrorFactSale.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -459,7 +265,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="OrderID"
-              DTS:DTSID="{892ED6B4-73B8-4752-846B-D222F521B737}"
+              DTS:DTSID="{1481969C-29FE-4330-9C30-4D6E0B81C13D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -468,7 +274,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CustomerID"
-              DTS:DTSID="{E3FCC0AC-6428-4ECA-9AF9-5DE4A2B1515C}"
+              DTS:DTSID="{B03D91BA-6C5E-426F-82A4-748BC3072DDF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -476,7 +282,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="EmployeeID"
-              DTS:DTSID="{6B2A1B5B-FA7F-4C27-969A-AB5795F6AD67}"
+              DTS:DTSID="{2CFCC219-271C-4613-A71D-0188FB075C88}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -484,7 +290,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="OrderDate"
-              DTS:DTSID="{2A97F1D0-36EA-42CE-851E-CC4DE0CA4311}"
+              DTS:DTSID="{9F826C6D-3FCA-4406-90B2-607E5093B75E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -492,7 +298,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="RequiredDate"
-              DTS:DTSID="{4A524FB3-39D6-4BA6-A4FC-EA14DC909CFE}"
+              DTS:DTSID="{0BF05D8A-4B2F-42F0-AC95-EA8743EDE555}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -500,7 +306,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="ShippedDate"
-              DTS:DTSID="{677C5E7F-A530-4CFD-AFAA-B847A8481453}"
+              DTS:DTSID="{87B3714E-6623-42A2-A05C-3FF7CBE86A38}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -508,7 +314,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipVia"
-              DTS:DTSID="{8D69A537-4B61-45E4-B71E-A85A84ACD65B}"
+              DTS:DTSID="{E2E51BB6-0E89-4966-B9E4-F2D9EB4A6B03}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -516,7 +322,7 @@
               DTS:DataType="6"
               DTS:TextQualified="True"
               DTS:ObjectName="Freight"
-              DTS:DTSID="{9CBAC302-2D7A-4992-825C-DB267C842BE1}"
+              DTS:DTSID="{5E4D5F50-2C46-45AE-8622-03AC58BB2962}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -525,7 +331,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipName"
-              DTS:DTSID="{797973E1-4824-497A-8BD7-3FE4DE16ED6E}"
+              DTS:DTSID="{7B73C9CB-C119-4114-92F6-B4048C72E3DB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -534,7 +340,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipAddress"
-              DTS:DTSID="{78AE4BB4-2C4D-4507-88D4-FE6B6191FB3F}"
+              DTS:DTSID="{DD3FB808-ADC8-46BB-85F9-6635D1640272}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -543,7 +349,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipCity"
-              DTS:DTSID="{268C6968-2019-48C5-A734-08B65628DD8E}"
+              DTS:DTSID="{56EC9CCD-5338-45EB-88AB-790C0B1E9AB4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -552,7 +358,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipRegion"
-              DTS:DTSID="{8341F6FA-9128-4AF3-B8E6-132FC5B199CE}"
+              DTS:DTSID="{1642916D-3FF5-42DD-99CA-A88D0E2C2FDF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -561,7 +367,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipPostalCode"
-              DTS:DTSID="{3E28CA76-DB8C-4C77-BF99-00D6DDA29DAD}"
+              DTS:DTSID="{528B335D-3492-46A5-A256-C24F87F641A7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -570,7 +376,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipCountry"
-              DTS:DTSID="{02B31CC3-FF85-471B-A8D7-EEC0D46FD0FF}"
+              DTS:DTSID="{05D506DF-DB18-4D88-84EB-A4DF03C377B8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -578,7 +384,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="IsOnline"
-              DTS:DTSID="{532AD04E-14B4-40D0-B4D3-8933971506F4}"
+              DTS:DTSID="{B53E98C7-52CC-4B65-89F4-8966AB14A234}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -586,7 +392,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductID"
-              DTS:DTSID="{14AA4C3F-80B9-4C40-B811-87FF7B5EDACF}"
+              DTS:DTSID="{14DE47C1-0931-49DD-A048-8BD578E3D224}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -594,7 +400,7 @@
               DTS:DataType="6"
               DTS:TextQualified="True"
               DTS:ObjectName="UnitPrice"
-              DTS:DTSID="{3F7FFC51-8DA6-42B5-9A29-FB368B0167EA}"
+              DTS:DTSID="{6F5F252D-A71D-4415-B67F-84C86BDDA80A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -602,7 +408,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Quantity"
-              DTS:DTSID="{FE0D83CD-4C4A-4FF0-B1BA-280EDAA67DDE}"
+              DTS:DTSID="{DB848AE4-F80C-42D6-BDCD-862B6E03B1A6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -610,7 +416,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Discount"
-              DTS:DTSID="{CFDDEF3C-B9BF-4E9F-B214-C1B4332946C7}"
+              DTS:DTSID="{9670B203-C437-4DAC-A366-96DEE566432D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -619,7 +425,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductNameFrench"
-              DTS:DTSID="{9F7620F7-16A2-4A11-BD3F-AC0396980F2B}"
+              DTS:DTSID="{690370E2-9C42-4957-B397-34DE157E0AC5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -628,7 +434,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductNameEnglish"
-              DTS:DTSID="{1BAC4A4C-E6A4-477E-B41D-8798E3AB461A}"
+              DTS:DTSID="{44D79B3A-262C-498A-9187-DE09DB675CE7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -636,7 +442,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{51D3ED0E-5B4F-49EC-91F7-0B638135839E}"
+              DTS:DTSID="{F3F53FDB-BBDB-4314-A36D-73012336DA93}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -644,7 +450,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{6667D2E7-46D4-447D-AB38-DF3F86ECA195}"
+              DTS:DTSID="{D8F198D4-8F52-43C8-B6C4-5B3180DB3DBB}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -663,7 +469,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAhqfyfMrTVk6iiT6hFNFM3wAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADM41NUiOr6FBkVDfRfh15QM0LowYitSx0x0hIFyt4C0gAAAAAOgAAAAAIAACAAAADotcbWYZKi3tiqAB8vQqKEoHkIZfv3jhEtPFCzCWUvlSAAAAAWZVJ8gZDH6x0J/j119zsgt0cVchP6Q2wGJ6hhZK8FIEAAAAAQESxMM4u+uMY84YBMoQsU7MhWBb2IGKsfsq/QL810hm19BKJW7+MMmi8iavoxmLdyvbBGIliMrsB8eYKqLjrm</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAhqfyfMrTVk6iiT6hFNFM3wAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAACYX6KDr67aBs26KUuG5buDHE5sWpkZ54a5GGeD0XR4QAAAAAOgAAAAAIAACAAAAC5kjBa5n8v94aTtFna3ivGl5EE/yrsrISm7CRKRrMKaCAAAADFYaKwhWBHHhBxKumkMiRRANmi1iXCCynbEtYO9ro1ZUAAAABQo7epIAgL3BD9bm8sKD0nPbHWBOdASx3N0U1YGDfZLqSL0dRmXyu5I7cX7rsnESe6ge0mK7mn5dKsjtJBVVPM</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -680,7 +486,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\simon\source\repos\Projet BI\ErrorProduct.txt">
+          DTS:ConnectionString="C:\Users\simon\OneDrive\Documents\Cours\BI\projetETL\ETL-Foodies997\Projet BI\ErrorProduct.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -688,7 +494,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductIDGot"
-              DTS:DTSID="{A37A2231-87D5-418F-876E-5072A0656F1D}"
+              DTS:DTSID="{5EC59C31-99C0-4325-A656-16104411C1DB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -697,7 +503,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CategoryName"
-              DTS:DTSID="{AC76AD5E-510C-4477-8308-6C836E073073}"
+              DTS:DTSID="{010EC8EC-8A6A-435F-B7ED-EA7985BE6061}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -706,7 +512,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductName"
-              DTS:DTSID="{FDB5825F-5526-436C-AF2E-E9E22694CF14}"
+              DTS:DTSID="{0EC5410B-1C9E-48B7-80CC-04476E23CE1D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -715,7 +521,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CompanyNameGot"
-              DTS:DTSID="{A68B790C-723E-4720-9D7B-6A0CB899FA8B}"
+              DTS:DTSID="{2AEF9E15-269D-4113-AB55-722906D1A6BC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -724,7 +530,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="City"
-              DTS:DTSID="{3F3AFF4F-FE42-4483-ADAE-FAAF3C59819E}"
+              DTS:DTSID="{2A98CE0A-6B61-497B-BAA4-98B6DBD60BA3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -733,7 +539,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="Country"
-              DTS:DTSID="{FF32B39B-7E9A-4BE3-926C-D234BABA8105}"
+              DTS:DTSID="{F85FB638-BA67-4D51-8FA5-3D7488D04D81}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -742,7 +548,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CompanyName"
-              DTS:DTSID="{F7B1DCC4-57F4-4468-A848-C0C27589145F}"
+              DTS:DTSID="{576B3169-6222-4B64-8E5B-F6BD3CD8C613}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -751,7 +557,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CountryEnglish"
-              DTS:DTSID="{87DA2AB2-E85B-45A8-9BC1-7E76DE10D0D6}"
+              DTS:DTSID="{515522BC-FE39-4F17-95BD-0611B390EED1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -760,7 +566,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CountryFrench"
-              DTS:DTSID="{EB981753-E663-4372-8346-1C54A7B0A709}"
+              DTS:DTSID="{761879BE-5A67-43E7-94D1-DFA18D40BD8A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -769,7 +575,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CityEnglish"
-              DTS:DTSID="{53DD5C45-1D22-454E-8352-54717FE4D352}"
+              DTS:DTSID="{D567FD1D-5ADF-4799-90A3-1D29DBE87CE4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -778,7 +584,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CityFrench"
-              DTS:DTSID="{F81BE4ED-0851-42E8-AD6C-7B308AB480FB}"
+              DTS:DTSID="{1847431C-52E4-452C-BD70-4CA17D6F7F00}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -787,7 +593,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CategoryNameFrench"
-              DTS:DTSID="{AAC193E9-CED6-40C0-BBDD-25CA8BC2EC45}"
+              DTS:DTSID="{BA31EEAC-BAD3-474B-9821-16B66DAF6BB9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -796,7 +602,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CategoryNameEnglish"
-              DTS:DTSID="{D8A7E335-F7B6-4DE5-B304-F3E09E58B7D2}"
+              DTS:DTSID="{861FC770-7D57-414A-AFD3-3A715CD545A8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -804,7 +610,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductID"
-              DTS:DTSID="{BF0F9AA2-173C-4977-9F22-B9341D58FB18}"
+              DTS:DTSID="{88636892-E6AF-4C68-AA8B-6BD6BD83F6A7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -813,7 +619,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductNameFrench"
-              DTS:DTSID="{41A0DCF8-EA5D-4B03-BBA5-41C2E927F5BD}"
+              DTS:DTSID="{0DAA95B7-B45A-4E8E-A948-05D47D5A92CB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -822,7 +628,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductNameEnglish"
-              DTS:DTSID="{1B4E05B8-4C36-4866-B499-D80391BDAEDF}"
+              DTS:DTSID="{7F41C95A-6E3E-421F-B489-8BE53F7E676F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -830,7 +636,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{403AF49D-F9BE-48FF-903F-B962E0976650}"
+              DTS:DTSID="{5B75C3B3-BC1F-49F2-973C-D122419249C6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -838,7 +644,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{5562723B-7D48-460B-BF3F-D47F8679E9B1}"
+              DTS:DTSID="{77406663-2DC9-4EC7-9C5B-56FCE249E7C5}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -857,7 +663,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\simon\source\repos\Projet BI\ErrorRepresentatives.txt">
+          DTS:ConnectionString="C:\Users\simon\OneDrive\Documents\Cours\BI\projetETL\ETL-Foodies997\Projet BI\ErrorRepresentatives.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -865,7 +671,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="OrderID"
-              DTS:DTSID="{09200F85-BA60-4C37-81A9-D80339AE8A1F}"
+              DTS:DTSID="{7B824933-DE52-4BE9-A8D6-67C17B4E4D14}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -874,7 +680,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CustomerID"
-              DTS:DTSID="{F30847E6-793E-4BB4-A8DE-BA83295523B5}"
+              DTS:DTSID="{91A9C1B1-4E7B-451F-BF5A-5D0F296A3AB3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -882,7 +688,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="EmployeeID"
-              DTS:DTSID="{941B49DF-C9B3-4EE1-BEA9-16163151849F}"
+              DTS:DTSID="{5CE50760-FA2E-4FB6-9374-6C147E38CF85}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -890,7 +696,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="OrderDate"
-              DTS:DTSID="{3993AE71-D248-4E8C-AC35-6C248787468E}"
+              DTS:DTSID="{AF9B5B9E-0073-4218-A4AD-3E38AF9A3114}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -898,7 +704,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="RequiredDate"
-              DTS:DTSID="{B00BE66F-3712-40CF-9A0F-398E23BD0794}"
+              DTS:DTSID="{0BFA428A-94D7-42BF-B33F-00410CCEB037}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -906,7 +712,7 @@
               DTS:DataType="135"
               DTS:TextQualified="True"
               DTS:ObjectName="ShippedDate"
-              DTS:DTSID="{5BA47280-B648-4BCD-942D-A3761428CB3A}"
+              DTS:DTSID="{75847E05-A314-4B20-8EB3-DD8E7E0BADCB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -914,7 +720,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipVia"
-              DTS:DTSID="{B140FE75-DB40-4B98-BFA1-C44CECC0ED90}"
+              DTS:DTSID="{46223161-F3DC-4DBF-B068-991F82831BF2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -922,7 +728,7 @@
               DTS:DataType="6"
               DTS:TextQualified="True"
               DTS:ObjectName="Freight"
-              DTS:DTSID="{E035919C-421B-42FD-A8CD-63905FF42051}"
+              DTS:DTSID="{85565B0B-704D-47DE-B658-1DF99D5990EB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -931,7 +737,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipName"
-              DTS:DTSID="{B6651DB5-D4E0-4512-89FC-CB64835175AB}"
+              DTS:DTSID="{F8667360-AEA3-415B-8712-BCD8715CAF13}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -940,7 +746,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipAddress"
-              DTS:DTSID="{A06B613A-B6B6-480F-870D-281A6F5CA50D}"
+              DTS:DTSID="{94CE1C9F-0442-42A2-BBEE-C18F5F608514}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -949,7 +755,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipCity"
-              DTS:DTSID="{1C83BBE6-891C-4CD1-B49C-DE086FD8DC1A}"
+              DTS:DTSID="{97AB9A9E-C18C-42E4-859E-AF9E6E9A9433}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -958,7 +764,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipRegion"
-              DTS:DTSID="{38403862-8396-4055-AC2D-BC306D04082D}"
+              DTS:DTSID="{8F87DC5C-A88E-4969-93D5-DE136383A609}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -967,7 +773,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipPostalCode"
-              DTS:DTSID="{02B60FA3-BE60-4B7A-9824-72695D04647F}"
+              DTS:DTSID="{1E28C6FD-CFE3-4722-B966-AE17D3DF781B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -976,7 +782,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipCountry"
-              DTS:DTSID="{BB2609BB-B743-4C94-92DE-24EC3612A3E3}"
+              DTS:DTSID="{53189504-0E46-4A45-B44B-766FB195DA9F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -984,7 +790,7 @@
               DTS:DataType="11"
               DTS:TextQualified="True"
               DTS:ObjectName="IsOnline"
-              DTS:DTSID="{88ADCEE4-D9EC-4A66-9649-D311F8CE2753}"
+              DTS:DTSID="{B5DFB78A-B0E0-4F87-9D74-D7858FA339EA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -992,7 +798,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductID"
-              DTS:DTSID="{28DE5639-E064-4AF5-99B1-7B5C65D37FB0}"
+              DTS:DTSID="{BFBDFA6D-874A-4DB9-9115-71EFA741504D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1000,7 +806,7 @@
               DTS:DataType="6"
               DTS:TextQualified="True"
               DTS:ObjectName="UnitPrice"
-              DTS:DTSID="{BB7F125C-E5B8-4762-A98A-280178DBA545}"
+              DTS:DTSID="{B263EA71-0F65-4DAF-ABD2-C9CBE66A5977}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1008,7 +814,7 @@
               DTS:DataType="2"
               DTS:TextQualified="True"
               DTS:ObjectName="Quantity"
-              DTS:DTSID="{13445C2B-E56D-4569-9A1E-B0963A1ADC16}"
+              DTS:DTSID="{ED2DE094-F442-41A4-99E0-8E29CA72CA35}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1016,7 +822,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Discount"
-              DTS:DTSID="{4C41995E-2000-4A4E-B3DC-183A738297F9}"
+              DTS:DTSID="{23C7A9CF-4C8C-4B01-960A-AB39289E515B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1024,7 +830,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{B5DC6722-4DB4-43A3-8B75-948C0062285A}"
+              DTS:DTSID="{B1B0E731-2288-4126-A715-A11763B0B9C3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1032,7 +838,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{F100AE95-BBD3-4A8B-B04D-5A697FBC1D0E}"
+              DTS:DTSID="{EA375F05-8D71-480A-926E-85BB5663650D}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1051,7 +857,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\simon\source\repos\Projet BI\ErrorShipment.txt">
+          DTS:ConnectionString="C:\Users\simon\OneDrive\Documents\Cours\BI\projetETL\ETL-Foodies997\Projet BI\ErrorShipment.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1059,7 +865,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipperIDGot"
-              DTS:DTSID="{2888D994-948B-4297-AE46-0416230B8F30}"
+              DTS:DTSID="{B9866047-A973-4BF5-A638-315307E72755}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1068,7 +874,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CompanyName"
-              DTS:DTSID="{6AB72CC3-6690-4C37-BCB8-3CF3C2E153A6}"
+              DTS:DTSID="{853EECBF-65A7-461B-8A05-80403E96B95F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1077,7 +883,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipCity"
-              DTS:DTSID="{795E933A-A6DA-4BBA-8D71-0B95B558A442}"
+              DTS:DTSID="{82CBEDFC-02A6-403F-BDB5-25CF9A68E26C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1086,7 +892,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipCountry"
-              DTS:DTSID="{F3AD1AA7-8E00-491C-971A-A207753B7739}"
+              DTS:DTSID="{5E6E22DD-9297-4176-A1A4-A093004B509E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1095,7 +901,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipCityFrench"
-              DTS:DTSID="{755267A4-A821-4919-B76C-3D4B9400F966}"
+              DTS:DTSID="{E70A0BC3-94FD-4254-93B9-08737F3A4BD3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1104,7 +910,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipCountryFrench"
-              DTS:DTSID="{1B02EE49-D88A-49C9-A4D6-DD3609B3D3DA}"
+              DTS:DTSID="{7D23D587-F912-4852-8BF7-A1F5E24C6DDF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1112,7 +918,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipperID"
-              DTS:DTSID="{A82C9429-B0AA-4F11-9686-C440C1E2E333}"
+              DTS:DTSID="{A8342519-E907-4833-B06C-D8D5D08DD7F1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1121,7 +927,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipCompanyName"
-              DTS:DTSID="{D4C2787A-16DA-4589-897B-B5FBEFD43B50}"
+              DTS:DTSID="{F86963F1-F7B3-4E25-8E74-C6208803F9D7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1130,7 +936,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipCountryEnglish"
-              DTS:DTSID="{670DEBC3-6476-41A1-A6C1-170C8D77D711}"
+              DTS:DTSID="{1A206C1A-F4A3-4C3B-BCBB-D52C0A6486D8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1139,7 +945,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="ShipCityEnglish"
-              DTS:DTSID="{6295B9B1-2CE4-499D-BF4A-8471EDAD5F56}"
+              DTS:DTSID="{55B01AF8-AB4F-4400-A876-1AF6034ED4A0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1147,7 +953,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="TechnID"
-              DTS:DTSID="{3BEDA9F3-285A-4143-AB57-9A69635FA061}"
+              DTS:DTSID="{A30F30A5-8916-4B6F-8139-6383CC85CB0F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1155,7 +961,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{980541E4-8A22-45FD-83E1-5F4E28FA6B7F}"
+              DTS:DTSID="{4483D300-1AB1-4483-81BD-DD7AF5B23A26}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -1163,7 +969,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{CFDECB91-867A-4FF2-8C0D-532E9FFD3E3D}"
+              DTS:DTSID="{014D044C-3B1F-4314-8B73-E2DB0A241C71}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -3316,158 +3122,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
           version="1">
           <components>
             <component
-              refId="Package\DimDate\Date error"
-              componentClassID="Microsoft.FlatFileDestination"
-              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Flat File Destination"
-              localeId="2057"
-              name="Date error"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.Boolean"
-                  description="Specifies whether the data will overwrite or append to the destination file."
-                  name="Overwrite">true</property>
-                <property
-                  dataType="System.Null"
-                  description="Specifies the text to write to the destination file before any data is written."
-                  expressionType="Notify"
-                  name="Header" />
-                <property
-                  dataType="System.Boolean"
-                  description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
-                  name="EscapeQualifier">false</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\DimDate\Date error.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Date error]"
-                  connectionManagerRefId="Package.ConnectionManagers[Date error]"
-                  name="FlatFileConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\DimDate\Date error.Inputs[Flat File Destination Input]"
-                  hasSideEffects="true"
-                  name="Flat File Destination Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].Columns[DateEntree]"
-                      cachedDataType="dbTimeStamp"
-                      cachedName="DateEntree"
-                      cachedSortKeyPosition="1"
-                      externalMetadataColumnId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[DateEntree]"
-                      lineageId="Package\DimDate\Remove dupplicates dates.Outputs[Sort Output].Columns[DateEntree]" />
-                    <inputColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].Columns[DayOfYearNumber]"
-                      cachedDataType="i4"
-                      cachedName="DayOfYearNumber"
-                      externalMetadataColumnId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[DayOfYearNumber]"
-                      lineageId="Package\DimDate\Remove dupplicates dates.Outputs[Sort Output].Columns[DayOfYearNumber]" />
-                    <inputColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].Columns[DayOFWeekNumber]"
-                      cachedDataType="i4"
-                      cachedName="DayOFWeekNumber"
-                      externalMetadataColumnId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[DayOFWeekNumber]"
-                      lineageId="Package\DimDate\Remove dupplicates dates.Outputs[Sort Output].Columns[DayOFWeekNumber]" />
-                    <inputColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].Columns[DayEnglishName]"
-                      cachedDataType="wstr"
-                      cachedLength="9"
-                      cachedName="DayEnglishName"
-                      externalMetadataColumnId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[DayEnglishName]"
-                      lineageId="Package\DimDate\Remove dupplicates dates.Outputs[Sort Output].Columns[DayEnglishName]" />
-                    <inputColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].Columns[DayFrenchName]"
-                      cachedDataType="wstr"
-                      cachedLength="8"
-                      cachedName="DayFrenchName"
-                      externalMetadataColumnId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[DayFrenchName]"
-                      lineageId="Package\DimDate\Remove dupplicates dates.Outputs[Sort Output].Columns[DayFrenchName]" />
-                    <inputColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].Columns[MonthFrenchName]"
-                      cachedDataType="wstr"
-                      cachedLength="9"
-                      cachedName="MonthFrenchName"
-                      externalMetadataColumnId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[MonthFrenchName]"
-                      lineageId="Package\DimDate\Remove dupplicates dates.Outputs[Sort Output].Columns[MonthFrenchName]" />
-                    <inputColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].Columns[MonthEnglishName]"
-                      cachedDataType="wstr"
-                      cachedLength="9"
-                      cachedName="MonthEnglishName"
-                      externalMetadataColumnId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[MonthEnglishName]"
-                      lineageId="Package\DimDate\Remove dupplicates dates.Outputs[Sort Output].Columns[MonthEnglishName]" />
-                    <inputColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].Columns[WeekNumber]"
-                      cachedDataType="i4"
-                      cachedName="WeekNumber"
-                      externalMetadataColumnId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[WeekNumber]"
-                      lineageId="Package\DimDate\Remove dupplicates dates.Outputs[Sort Output].Columns[WeekNumber]" />
-                    <inputColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].Columns[ErrorCode]"
-                      cachedDataType="i4"
-                      cachedName="ErrorCode"
-                      externalMetadataColumnId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[ErrorCode]"
-                      lineageId="Package\DimDate\fill DimDate.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]" />
-                    <inputColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].Columns[ErrorColumn]"
-                      cachedDataType="i4"
-                      cachedName="ErrorColumn"
-                      externalMetadataColumnId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[ErrorColumn]"
-                      lineageId="Package\DimDate\fill DimDate.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]" />
-                  </inputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[DateEntree]"
-                      dataType="dbTimeStamp"
-                      name="DateEntree" />
-                    <externalMetadataColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[DayOfYearNumber]"
-                      dataType="i4"
-                      name="DayOfYearNumber" />
-                    <externalMetadataColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[DayOFWeekNumber]"
-                      dataType="i4"
-                      name="DayOFWeekNumber" />
-                    <externalMetadataColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[DayEnglishName]"
-                      dataType="wstr"
-                      length="9"
-                      name="DayEnglishName" />
-                    <externalMetadataColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[DayFrenchName]"
-                      dataType="wstr"
-                      length="8"
-                      name="DayFrenchName" />
-                    <externalMetadataColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[MonthFrenchName]"
-                      dataType="wstr"
-                      length="9"
-                      name="MonthFrenchName" />
-                    <externalMetadataColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[MonthEnglishName]"
-                      dataType="wstr"
-                      length="9"
-                      name="MonthEnglishName" />
-                    <externalMetadataColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[WeekNumber]"
-                      dataType="i4"
-                      name="WeekNumber" />
-                    <externalMetadataColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[ErrorCode]"
-                      dataType="i4"
-                      name="ErrorCode" />
-                    <externalMetadataColumn
-                      refId="Package\DimDate\Date error.Inputs[Flat File Destination Input].ExternalColumns[ErrorColumn]"
-                      dataType="i4"
-                      name="ErrorColumn" />
-                  </externalMetadataColumns>
-                </input>
-              </inputs>
-            </component>
-            <component
               refId="Package\DimDate\Derived ColumnsDates"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
@@ -3874,6 +3528,158 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
                   <externalMetadataColumns />
                 </output>
               </outputs>
+            </component>
+            <component
+              refId="Package\DimDate\Flat File Destination"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Destination"
+              localeId="2057"
+              name="Flat File Destination"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether the data will overwrite or append to the destination file."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the text to write to the destination file before any data is written."
+                  expressionType="Notify"
+                  name="Header" />
+                <property
+                  dataType="System.Boolean"
+                  description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DimDate\Flat File Destination.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Date error]"
+                  connectionManagerRefId="Package.ConnectionManagers[Date error]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input]"
+                  hasSideEffects="true"
+                  name="Flat File Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].Columns[DateEntree]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="DateEntree"
+                      cachedSortKeyPosition="1"
+                      externalMetadataColumnId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[DateEntree]"
+                      lineageId="Package\DimDate\Remove dupplicates dates.Outputs[Sort Output].Columns[DateEntree]" />
+                    <inputColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].Columns[DayOfYearNumber]"
+                      cachedDataType="i4"
+                      cachedName="DayOfYearNumber"
+                      externalMetadataColumnId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[DayOfYearNumber]"
+                      lineageId="Package\DimDate\Remove dupplicates dates.Outputs[Sort Output].Columns[DayOfYearNumber]" />
+                    <inputColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].Columns[DayOFWeekNumber]"
+                      cachedDataType="i4"
+                      cachedName="DayOFWeekNumber"
+                      externalMetadataColumnId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[DayOFWeekNumber]"
+                      lineageId="Package\DimDate\Remove dupplicates dates.Outputs[Sort Output].Columns[DayOFWeekNumber]" />
+                    <inputColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].Columns[DayEnglishName]"
+                      cachedDataType="wstr"
+                      cachedLength="9"
+                      cachedName="DayEnglishName"
+                      externalMetadataColumnId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[DayEnglishName]"
+                      lineageId="Package\DimDate\Remove dupplicates dates.Outputs[Sort Output].Columns[DayEnglishName]" />
+                    <inputColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].Columns[DayFrenchName]"
+                      cachedDataType="wstr"
+                      cachedLength="8"
+                      cachedName="DayFrenchName"
+                      externalMetadataColumnId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[DayFrenchName]"
+                      lineageId="Package\DimDate\Remove dupplicates dates.Outputs[Sort Output].Columns[DayFrenchName]" />
+                    <inputColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].Columns[MonthFrenchName]"
+                      cachedDataType="wstr"
+                      cachedLength="9"
+                      cachedName="MonthFrenchName"
+                      externalMetadataColumnId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[MonthFrenchName]"
+                      lineageId="Package\DimDate\Remove dupplicates dates.Outputs[Sort Output].Columns[MonthFrenchName]" />
+                    <inputColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].Columns[MonthEnglishName]"
+                      cachedDataType="wstr"
+                      cachedLength="9"
+                      cachedName="MonthEnglishName"
+                      externalMetadataColumnId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[MonthEnglishName]"
+                      lineageId="Package\DimDate\Remove dupplicates dates.Outputs[Sort Output].Columns[MonthEnglishName]" />
+                    <inputColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].Columns[WeekNumber]"
+                      cachedDataType="i4"
+                      cachedName="WeekNumber"
+                      externalMetadataColumnId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[WeekNumber]"
+                      lineageId="Package\DimDate\Remove dupplicates dates.Outputs[Sort Output].Columns[WeekNumber]" />
+                    <inputColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].Columns[ErrorCode]"
+                      cachedDataType="i4"
+                      cachedName="ErrorCode"
+                      externalMetadataColumnId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorCode]"
+                      lineageId="Package\DimDate\fill DimDate.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]" />
+                    <inputColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].Columns[ErrorColumn]"
+                      cachedDataType="i4"
+                      cachedName="ErrorColumn"
+                      externalMetadataColumnId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorColumn]"
+                      lineageId="Package\DimDate\fill DimDate.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[DateEntree]"
+                      dataType="dbTimeStamp"
+                      name="DateEntree" />
+                    <externalMetadataColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[DayOfYearNumber]"
+                      dataType="i4"
+                      name="DayOfYearNumber" />
+                    <externalMetadataColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[DayOFWeekNumber]"
+                      dataType="i4"
+                      name="DayOFWeekNumber" />
+                    <externalMetadataColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[DayEnglishName]"
+                      dataType="wstr"
+                      length="9"
+                      name="DayEnglishName" />
+                    <externalMetadataColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[DayFrenchName]"
+                      dataType="wstr"
+                      length="8"
+                      name="DayFrenchName" />
+                    <externalMetadataColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[MonthFrenchName]"
+                      dataType="wstr"
+                      length="9"
+                      name="MonthFrenchName" />
+                    <externalMetadataColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[MonthEnglishName]"
+                      dataType="wstr"
+                      length="9"
+                      name="MonthEnglishName" />
+                    <externalMetadataColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[WeekNumber]"
+                      dataType="i4"
+                      name="WeekNumber" />
+                    <externalMetadataColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorCode]"
+                      dataType="i4"
+                      name="ErrorCode" />
+                    <externalMetadataColumn
+                      refId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ErrorColumn]"
+                      dataType="i4"
+                      name="ErrorColumn" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
             </component>
             <component
               refId="Package\DimDate\OrderDate"
@@ -4588,7 +4394,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
               startId="Package\DimDate\Remove dupplicates dates.Outputs[Sort Output]" />
             <path
               refId="Package\DimDate.Paths[Sortie d'erreur de destination OLE DB]"
-              endId="Package\DimDate\Date error.Inputs[Flat File Destination Input]"
+              endId="Package\DimDate\Flat File Destination.Inputs[Flat File Destination Input]"
               name="Sortie d'erreur de destination OLE DB"
               startId="Package\DimDate\fill DimDate.Outputs[Sortie d'erreur de destination OLE DB]" />
             <path
@@ -16478,34 +16284,34 @@ where [refTable].[ShipperID] = ?</property>
               startId="Package\FactSale\Get employee id.Outputs[Lookup Error Output]" />
             <path
               refId="Package\FactSale.Paths[Lookup Match Output5]"
-              endId="Package\FactSale\Get customer id.Inputs[Lookup Input]"
+              endId="Package\FactSale\Get shipment date.Inputs[Lookup Input]"
               name="Lookup Match Output"
-              startId="Package\FactSale\Get shipper id.Outputs[Lookup Match Output]" />
+              startId="Package\FactSale\Get product id.Outputs[Lookup Match Output]" />
             <path
               refId="Package\FactSale.Paths[Lookup Match Output3]"
-              endId="Package\FactSale\Union both 2.Inputs[Union All Input 1]"
-              name="Lookup Match Output"
-              startId="Package\FactSale\Get shipment date.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\FactSale.Paths[Lookup Match Output4]"
-              endId="Package\FactSale\Union both.Inputs[Union All Input 1]"
-              name="Lookup Match Output"
-              startId="Package\FactSale\Get employee id.Outputs[Lookup Match Output]" />
-            <path
-              refId="Package\FactSale.Paths[Lookup Match Output1]"
               endId="Package\FactSale\Get employee id.Inputs[Lookup Input]"
               name="Lookup Match Output"
               startId="Package\FactSale\Get customer id.Outputs[Lookup Match Output]" />
             <path
-              refId="Package\FactSale.Paths[Lookup Match Output]"
+              refId="Package\FactSale.Paths[Lookup Match Output4]"
               endId="Package\FactSale\fill FactSale.Inputs[OLE DB Destination Input]"
               name="Lookup Match Output"
               startId="Package\FactSale\Get order date.Outputs[Lookup Match Output]" />
             <path
-              refId="Package\FactSale.Paths[Lookup Match Output2]"
-              endId="Package\FactSale\Get shipment date.Inputs[Lookup Input]"
+              refId="Package\FactSale.Paths[Lookup Match Output1]"
+              endId="Package\FactSale\Union both 2.Inputs[Union All Input 1]"
               name="Lookup Match Output"
-              startId="Package\FactSale\Get product id.Outputs[Lookup Match Output]" />
+              startId="Package\FactSale\Get shipment date.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\FactSale.Paths[Lookup Match Output]"
+              endId="Package\FactSale\Get customer id.Inputs[Lookup Input]"
+              name="Lookup Match Output"
+              startId="Package\FactSale\Get shipper id.Outputs[Lookup Match Output]" />
+            <path
+              refId="Package\FactSale.Paths[Lookup Match Output2]"
+              endId="Package\FactSale\Union both.Inputs[Union All Input 1]"
+              name="Lookup Match Output"
+              startId="Package\FactSale\Get employee id.Outputs[Lookup Match Output]" />
             <path
               refId="Package\FactSale.Paths[Merge Join Output]"
               endId="Package\FactSale\Get shipper id.Inputs[Lookup Input]"
@@ -16563,7 +16369,7 @@ where [refTable].[ShipperID] = ?</property>
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{1542C9BC-24FD-4241-A510-6C5A358266C0}"
-          SQLTask:SqlStatementSource="DROP TABLE IF EXISTS FactSale;&#xA;DROP TABLE IF EXISTS DimDate;&#xA;CREATE TABLE DimDate (&#xA;   DateKey datetime primary key,&#xA;   DayFrenchName nvarchar(100) not null,&#xA;   DayEnglishName nvarchar(100) not null,&#xA;   MonthFrenchName nvarchar(100) not null,&#xA;   MonthEnglishName nvarchar(100) not null,&#xA;   WeekNumber int not null,&#xA;   DayOfWeekNumber int not null,&#xA;   DayOfYearNumber int not null,&#xA;)&#xA;GO&#xA;&#xA;DROP TABLE IF EXISTS DimCustomer;&#xA;CREATE TABLE DimCustomer (&#xA;   CustomerID nvarchar(100) primary key,&#xA;   CityEnglish nvarchar(100) not null,&#xA;   CityFrench nvarchar(100) not null,&#xA;   CountryEnglish nvarchar(100) not null,&#xA;   CountryFrench nvarchar(100) not null,&#xA;   CustomerCompany nvarchar(100) not null,&#xA;)&#xA;GO&#xA;&#xA;DROP TABLE IF EXISTS DimProduct;&#xA;CREATE TABLE DimProduct (&#xA;   ProductID int primary key,&#xA;   ProductNameFrench nvarchar(100) not null,&#xA;   ProductNameEnglish nvarchar(100) not null,&#xA;   NameSupplier nvarchar(100) not null,&#xA;   CityEnglish nvarchar(100) not null,&#xA;   CityFrench nvarchar(100) not null,&#xA;   CountryEnglish nvarchar(100) not null,&#xA;   CountryFrench nvarchar(100) not null,&#xA;   CategoryNameEnglish nvarchar(100) not null,&#xA;   CategoryNameFrench nvarchar(100) not null,&#xA;)&#xA;GO&#xA;&#xA;DROP TABLE IF EXISTS DimSalesRepresentative;&#xA;CREATE TABLE DimSalesRepresentative (&#xA;   EmployeeID int primary key,&#xA;   NameEmployee nvarchar(100) not null&#xA;)&#xA;GO&#xA;&#xA;INSERT INTO DimSalesRepresentative (EmployeeID, NameEmployee) VALUES (404, 'Internet')&#xA;&#xA;DROP TABLE IF EXISTS DimShipment&#xA;CREATE TABLE DimShipment (&#xA;   TechnicalID int primary key,&#xA;   ShipperID int not null,&#xA;   ShipperName nvarchar(100) not null,&#xA;   ShipCountryEnglish nvarchar(100) not null,&#xA;   ShipCountryFrench nvarchar(100) not null,&#xA;   ShipCityFrench nvarchar(100) not null,&#xA;   ShipCityEnglish nvarchar(100) not null,&#xA;)&#xA;GO&#xA;&#xA;CREATE TABLE FactSale (&#xA;   TechnicalID int primary key identity(1,1),&#xA;   ProductID int not null,&#xA;   ProductNameEnglish nvarchar(100) not null,&#xA;   ProductNameFrench nvarchar(100) not null,&#xA;   CustomerID nvarchar(100) not null,&#xA;   IsOnline bit not null,&#xA;   EmployeeID int not null,&#xA;   ShipperID int not null,&#xA;   ShippedDate datetime,&#xA;   Quantity int not null,&#xA;   Price float not null,&#xA;   Freight float not null,&#xA;   OrderDate datetime not null,&#xA;   constraint customer_fk foreign key (CustomerID) references &#x9;DimCustomer (CustomerID),&#xA;   constraint employee_fk foreign key (EmployeeID) references &#x9;DimSalesRepresentative (EmployeeID),&#xA;   constraint shipper_fk  foreign key (ShipperID) references &#x9;DimShipment (TechnicalID),&#xA;   constraint product_fk  foreign key (ProductID) references &#x9;DimProduct (ProductID),&#xA;)&#xA;GO&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="DROP TABLE IF EXISTS FactSale;&#xA;DROP TABLE IF EXISTS DimDate;&#xA;CREATE TABLE DimDate (&#xA;   DateKey datetime primary key,&#xA;   DayFrenchName nvarchar(100) not null,&#xA;   DayEnglishName nvarchar(100) not null,&#xA;   MonthFrenchName nvarchar(100) not null,&#xA;   MonthEnglishName nvarchar(100) not null,&#xA;   WeekNumber int not null,&#xA;   DayOfWeekNumber int not null,&#xA;   DayOfYearNumber int not null,&#xA;)&#xA;GO&#xA;&#xA;DROP TABLE IF EXISTS DimCustomer;&#xA;CREATE TABLE DimCustomer (&#xA;   CustomerID nvarchar(100) primary key,&#xA;   CityEnglish nvarchar(100) not null,&#xA;   CityFrench nvarchar(100) not null,&#xA;   CountryEnglish nvarchar(100) not null,&#xA;   CountryFrench nvarchar(100) not null,&#xA;   CustomerCompany nvarchar(100) not null,&#xA;)&#xA;GO&#xA;&#xA;DROP TABLE IF EXISTS DimProduct;&#xA;CREATE TABLE DimProduct (&#xA;   ProductID int primary key,&#xA;   ProductNameFrench nvarchar(100) not null,&#xA;   ProductNameEnglish nvarchar(100) not null,&#xA;   NameSupplier nvarchar(100) not null,&#xA;   CityEnglish nvarchar(100) not null,&#xA;   CityFrench nvarchar(100) not null,&#xA;   CountryEnglish nvarchar(100) not null,&#xA;   CountryFrench nvarchar(100) not null,&#xA;   CategoryNameEnglish nvarchar(100) not null,&#xA;   CategoryNameFrench nvarchar(100) not null,&#xA;)&#xA;GO&#xA;&#xA;DROP TABLE IF EXISTS DimSalesRepresentative;&#xA;CREATE TABLE DimSalesRepresentative (&#xA;   EmployeeID int primary key,&#xA;   NameEmployee nvarchar(100) not null&#xA;)&#xA;GO&#xA;&#xA;INSERT INTO DimSalesRepresentative (EmployeeID, NameEmployee) VALUES (404, 'Autres')&#xA;&#xA;DROP TABLE IF EXISTS DimShipment&#xA;CREATE TABLE DimShipment (&#xA;   TechnicalID int primary key,&#xA;   ShipperID int not null,&#xA;   ShipperName nvarchar(100) not null,&#xA;   ShipCountryEnglish nvarchar(100) not null,&#xA;   ShipCountryFrench nvarchar(100) not null,&#xA;   ShipCityFrench nvarchar(100) not null,&#xA;   ShipCityEnglish nvarchar(100) not null,&#xA;)&#xA;GO&#xA;&#xA;CREATE TABLE FactSale (&#xA;   TechnicalID int primary key identity(1,1),&#xA;   ProductID int not null,&#xA;   ProductNameEnglish nvarchar(100) not null,&#xA;   ProductNameFrench nvarchar(100) not null,&#xA;   CustomerID nvarchar(100) not null,&#xA;   IsOnline bit not null,&#xA;   EmployeeID int not null,&#xA;   ShipperID int not null,&#xA;   ShippedDate datetime,&#xA;   Quantity int not null,&#xA;   Price float not null,&#xA;   Freight float not null,&#xA;   OrderDate datetime not null,&#xA;   constraint customer_fk foreign key (CustomerID) references &#x9;DimCustomer (CustomerID),&#xA;   constraint employee_fk foreign key (EmployeeID) references &#x9;DimSalesRepresentative (EmployeeID),&#xA;   constraint shipper_fk  foreign key (ShipperID) references &#x9;DimShipment (TechnicalID),&#xA;   constraint product_fk  foreign key (ProductID) references &#x9;DimProduct (ProductID),&#xA;   constraint shipped_date  foreign key (ShippedDate) references &#x9;DimDate (DateKey),&#xA;   constraint order_date    foreign key (OrderDate) references &#x9;DimDate (DateKey),&#xA;)&#xA;GO&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -16844,7 +16650,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -16890,7 +16698,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -16928,10 +16738,6 @@ where [refTable].[ShipperID] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="126.4,41.6"
-          Id="Package\DimDate\Date error"
-          TopLeft="627.172158556855,311.339366623085" />
-        <NodeLayout
           Size="184.8,41.6"
           Id="Package\DimDate\Derived ColumnsDates"
           TopLeft="123.452380952381,223.619047619047" />
@@ -16955,6 +16761,84 @@ where [refTable].[ShipperID] = ?</property>
           Size="201.6,41.6"
           Id="Package\DimDate\Remove dupplicates dates"
           TopLeft="340,222.5" />
+        <EdgeLayout
+          Id="Package\DimDate.Paths[Union All Output 1]"
+          TopLeft="215.609523809524,179.933333333333">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,43.685714285714"
+              Start="0,0"
+              End="0,36.185714285714">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,36.185714285714" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DimDate.Paths[Sort Output]"
+          TopLeft="541.6,245.88565067751">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="75.8610363457334,0"
+              Start="0,0"
+              End="68.3610363457334,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="68.3610363457334,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DimDate.Paths[OLE DB Source Output1]"
+          TopLeft="311.839393939394,86.1151515151513">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-76.072727272727,52.218181818182"
+              Start="0,0"
+              End="-76.072727272727,44.718181818182">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.9511404958679" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,26.9511404958679"
+                    Point2="0,30.9511404958679"
+                    Point3="-4,30.9511404958679" />
+                  <mssgle:LineSegment
+                    End="-72.072727272727,30.9511404958679" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-72.072727272727,30.9511404958679"
+                    Point2="-76.072727272727,30.9511404958679"
+                    Point3="-76.072727272727,34.9511404958679" />
+                  <mssgle:LineSegment
+                    End="-76.072727272727,44.718181818182" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\DimDate.Paths[OLE DB Source Output]"
           TopLeft="131.883549783551,89.1281385281383">
@@ -17011,106 +16895,32 @@ where [refTable].[ShipperID] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DimDate.Paths[Union All Output 1]"
-          TopLeft="215.609523809524,179.933333333333">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,43.685714285714"
-              Start="0,0"
-              End="0,36.185714285714">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,36.185714285714" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\DimDate\Flat File Destination"
+          TopLeft="592.85715295344,146.823531470909" />
         <EdgeLayout
           Id="Package\DimDate.Paths[Sortie d'erreur de destination OLE DB]"
-          TopLeft="687.116597451294,269.27130135502">
+          TopLeft="681.159094649586,227.67130135502">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,42.0680652680658"
+              EndConnector="0,-39.2477698841106"
               Start="0,0"
-              End="0,34.5680652680658">
+              End="0,-31.7477698841106">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,34.5680652680658" />
+                    End="0,-31.7477698841106" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-83.281484375,12.4095209152829,166.56296875,9.7490234375"
+              BoundingBox="-83.281484375,-20.7483966608053,166.56296875,9.7490234375"
               RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DimDate.Paths[OLE DB Source Output1]"
-          TopLeft="311.839393939394,86.1151515151513">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-76.072727272727,52.218181818182"
-              Start="0,0"
-              End="-76.072727272727,44.718181818182">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.9511404958679" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26.9511404958679"
-                    Point2="0,30.9511404958679"
-                    Point3="-4,30.9511404958679" />
-                  <mssgle:LineSegment
-                    End="-72.072727272727,30.9511404958679" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-72.072727272727,30.9511404958679"
-                    Point2="-76.072727272727,30.9511404958679"
-                    Point3="-76.072727272727,34.9511404958679" />
-                  <mssgle:LineSegment
-                    End="-76.072727272727,44.718181818182" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DimDate.Paths[Sort Output]"
-          TopLeft="541.6,245.88565067751">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="75.8610363457334,0"
-              Start="0,0"
-              End="68.3610363457334,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="68.3610363457334,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -17239,7 +17049,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17273,7 +17085,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17307,7 +17121,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17341,7 +17157,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17363,7 +17181,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17385,7 +17205,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17407,7 +17229,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17429,7 +17253,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17475,7 +17301,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17509,7 +17337,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -17603,7 +17433,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17727,7 +17559,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17761,7 +17595,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17783,7 +17619,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17805,7 +17643,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17827,7 +17667,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17873,7 +17715,9 @@ where [refTable].[ShipperID] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -17992,7 +17836,7 @@ where [refTable].[ShipperID] = ?</property>
           Id="Package\FactSale\Fact sale error"
           TopLeft="653.071439914558,82.8235305593088" />
         <EdgeLayout
-          Id="Package\FactSale.Paths[Lookup Match Output1]"
+          Id="Package\FactSale.Paths[Lookup Match Output3]"
           TopLeft="360.18095591263,446.730724215315">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -18016,31 +17860,31 @@ where [refTable].[ShipperID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\FactSale.Paths[Lookup Match Output5]"
-          TopLeft="282.890479744454,394.129416708798">
+          Id="Package\FactSale.Paths[Lookup Match Output2]"
+          TopLeft="585.914293049307,449.374514896372">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,32.6614389499847"
+              EndConnector="37.8952413836299,0"
               Start="0,0"
-              End="0,25.1614389499847">
+              End="30.3952413836299,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,25.1614389499847" />
+                    End="30.3952413836299,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,6.77603197499235,96.3827734375,11.609375"
+              BoundingBox="-32.993766026935,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\FactSale.Paths[Lookup Match Output3]"
+          Id="Package\FactSale.Paths[Lookup Match Output1]"
           TopLeft="732.400011069435,322.600003099442">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -18076,26 +17920,26 @@ where [refTable].[ShipperID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\FactSale.Paths[Lookup Match Output4]"
-          TopLeft="585.914293049307,449.374514896372">
+          Id="Package\FactSale.Paths[Lookup Match Output]"
+          TopLeft="282.890479744454,394.129416708798">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="37.8952413836299,0"
+              EndConnector="0,32.6614389499847"
               Start="0,0"
-              End="30.3952413836299,0">
+              End="0,25.1614389499847">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="30.3952413836299,0" />
+                    End="0,25.1614389499847" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-32.993766026935,5,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,6.77603197499235,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -18442,43 +18286,7 @@ where [refTable].[ShipperID] = ?</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\FactSale.Paths[Lookup Match Output]"
-          TopLeft="733.600011239733,242.305884326288">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-13.057142990949,-40.117646779981"
-              Start="0,0"
-              End="-13.057142990949,-32.617646779981">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-16.0588233899905" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-16.0588233899905"
-                    Point2="0,-20.0588233899905"
-                    Point3="-4,-20.0588233899905" />
-                  <mssgle:LineSegment
-                    End="-9.05714299094905,-20.0588233899905" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-9.05714299094905,-20.0588233899905"
-                    Point2="-13.057142990949,-20.0588233899905"
-                    Point3="-13.057142990949,-24.0588233899905" />
-                  <mssgle:LineSegment
-                    End="-13.057142990949,-32.617646779981" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-54.7199582142245,-15.0588233899905,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\FactSale.Paths[Lookup Match Output2]"
+          Id="Package\FactSale.Paths[Lookup Match Output5]"
           TopLeft="846.847632229572,426.854906522361">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -18510,6 +18318,42 @@ where [refTable].[ShipperID] = ?</property>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="-105.415197298818,-26.3274517114596,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\FactSale.Paths[Lookup Match Output4]"
+          TopLeft="733.600011239733,242.305884326288">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-13.057142990949,-40.117646779981"
+              Start="0,0"
+              End="-13.057142990949,-32.617646779981">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-16.0588233899905" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-16.0588233899905"
+                    Point2="0,-20.0588233899905"
+                    Point3="-4,-20.0588233899905" />
+                  <mssgle:LineSegment
+                    End="-9.05714299094905,-20.0588233899905" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-9.05714299094905,-20.0588233899905"
+                    Point2="-13.057142990949,-20.0588233899905"
+                    Point3="-13.057142990949,-24.0588233899905" />
+                  <mssgle:LineSegment
+                    End="-13.057142990949,-32.617646779981" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-54.7199582142245,-15.0588233899905,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
