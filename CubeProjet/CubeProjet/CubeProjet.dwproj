@@ -8,12 +8,12 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Foodies997Cube.cube</Name>
-      <FullPath>Foodies997Cube.cube</FullPath>
+      <Name>Project.cube</Name>
+      <FullPath>Project.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Foodies997Cube.partitions</Name>
-          <FullPath>Foodies997Cube.partitions</FullPath>
+          <Name>Project.partitions</Name>
+          <FullPath>Project.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -24,24 +24,12 @@
       <FullPath>Dim Customer.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Shipment 1.dim</Name>
-      <FullPath>Dim Shipment 1.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Sales Representative 1.dim</Name>
-      <FullPath>Dim Sales Representative 1.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Product 1.dim</Name>
-      <FullPath>Dim Product 1.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Date 1.dim</Name>
-      <FullPath>Dim Date 1.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Fact Sale.dim</Name>
       <FullPath>Fact Sale.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Shipment 1.dim</Name>
+      <FullPath>Dim Shipment 1.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

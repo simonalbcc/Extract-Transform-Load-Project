@@ -15,30 +15,37 @@
         <ID>Dim Customer</ID>
       </Dimension>
       <Dimension>
-        <ID>Dim Shipment</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Dim Sales Representative</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Dim Product</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Dim Date</ID>
-      </Dimension>
-      <Dimension>
         <ID>Fact Sale</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Shipment</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
-        <ID>Foodies997Cube</ID>
+        <ID>Foodies997View</ID>
         <MeasureGroups>
           <MeasureGroup>
             <ID>Fact Sale</ID>
             <Partitions>
               <Partition>
                 <ID>Fact Sale</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Customer</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Customer</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Shipment</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Shipment</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

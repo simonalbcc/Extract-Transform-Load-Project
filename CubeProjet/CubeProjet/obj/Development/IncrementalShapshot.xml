@@ -33,51 +33,30 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>/MstVAfK3c8TyFHfiYgVA4XI+4Q=13/01/2023 12:19:5213/01/2023 12:19:52</TimeStamp>
+        <TimeStamp>47v807mChgoKWmGmoja4KELXy8k=16/01/2023 15:57:3616/01/2023 15:36:07</TimeStamp>
         <ID>
           <String>Dim Customer</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>0FyK6EimB/+NY7kwhDI27UtROPc=13/01/2023 12:19:5313/01/2023 12:19:52</TimeStamp>
-        <ID>
-          <String>Dim Shipment</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>e730gXVx85VyUGbK9zkH38JjDYo=13/01/2023 12:19:5313/01/2023 12:19:52</TimeStamp>
-        <ID>
-          <String>Dim Sales Representative</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>3P+Ki2f0XtN2I3b38qrFado70Pc=13/01/2023 12:19:5313/01/2023 12:19:52</TimeStamp>
-        <ID>
-          <String>Dim Product</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>isD402RFsPUgmphf2GROFP5tiDM=13/01/2023 12:19:5313/01/2023 12:19:52</TimeStamp>
-        <ID>
-          <String>Dim Date</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>vAOjEcnRb+4O0uMU/zfi81nHQtc=13/01/2023 12:19:5313/01/2023 12:19:52</TimeStamp>
+        <TimeStamp>rLp29gdFS2Mx00uPUATDjdUEIIo=16/01/2023 16:45:2116/01/2023 15:36:07</TimeStamp>
         <ID>
           <String>Fact Sale</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>up/uw252Vi1SWju0jQa4ndj9wHM=13/01/2023 12:19:5313/01/2023 12:19:52CkwQL0DsqTtBDRtNRjA7Y/GsDT4=13/01/2023 12:19:5213/01/2023 12:19:52</TimeStamp>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3aywSNgpfvdwo/+eL0U2OtdWKsA=16/01/2023 16:33:2716/01/2023 16:33:27</TimeStamp>
         <ID>
-          <String>Foodies997Cube</String>
+          <String>Dim Shipment</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>WGFC8r2nK1dLiVBTbJ3lxkW94DQ=16/01/2023 16:45:2116/01/2023 15:36:07fVRiEy8bwZB3A/CsH/bPeJcENTY=16/01/2023 16:40:3616/01/2023 15:36:07</TimeStamp>
+        <ID>
+          <String>Foodies997View</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
@@ -92,5 +71,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2023-01-13T11:20:10.796667Z</LastDeployed>
+  <LastDeployed>2023-01-16T15:45:22.73Z</LastDeployed>
 </DeploymentSnapshot>
