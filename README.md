@@ -1,2 +1,2 @@
-# ETL-Foodies997
-This is a project in business intelligence
+# ETL
+This is a project in business intelligence. We had to create an ETL. 
